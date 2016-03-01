@@ -148,7 +148,6 @@ var Typer={
                 if (key.keyCode == 13) {
                 // print denied message on <enter>
                     c = "\nACCESS DENIED\n>> ";
-                    alert("hello");
                 } else if (key.keyCode == 9) {
                     // input tab on <tab>
                     c = "\t";
