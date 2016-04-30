@@ -28,3 +28,15 @@ body{
 	margin-left:-150px;
 	text-align:center;
 }
+
+a:link {
+    color:#00ff00; 
+    background-color:transparent;
+    text-decoration:none
+}
+
+a:visited {
+    color:#00ff00; 
+    background-color:transparent;
+    text-decoration:none
+}
