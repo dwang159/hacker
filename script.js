@@ -84,7 +84,7 @@ var Typer={
 		Typer.accessCount=0; //reset count
 		var ddiv=$("<div id='gran'>").html(""); // create new blank div and id "gran"
 		ddiv.addClass("accessGranted"); // add class to the div
-		ddiv.html("<h1>ACCESS GRANTED</h1>"); // set content of div
+		ddiv.html("<h1>ACCESS GRANTED</h1><br>The middle two digits are 96"); // set content of div
 		$(document.body).prepend(ddiv); // prepend div to body
         // empty buffer and set done to clear screen permanently
         Typer.buffer = "";
